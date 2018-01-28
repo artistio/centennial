@@ -15,9 +15,11 @@ class CategoryTableSeeder extends Seeder
         DB::table('categories')->delete();
 
         // Load new data
-        $category = App\Category::create(['title'=>'food', 'parent_id'=>'0']);
-        $category = App\Category::create(['title'=>'exercise', 'parent_id'=>'0']);
-        $category = App\Category::create(['title'=>'rest', 'parent_id'=>'0']);
+        $category = App\Category::create(['title'=>'Other', 'parent_id'=>'0']);
+        $category = App\Category::create(['title'=>'Food', 'parent_id'=>'0']);
+        $category = App\Category::create(['title'=>'Move', 'parent_id'=>'0']);
+        $category = App\Category::create(['title'=>'Rest', 'parent_id'=>'0']);
+        $category = App\Category::create(['title'=>'Mind', 'parent_id'=>'0']);
         /*
         DB::table('categories')->insert(array(
           array('title'=>'food','parent_id'=>'0'),

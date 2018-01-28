@@ -6,3 +6,4 @@ Centennial is the name commonly given to those who live long enough to celebrate
 
 # Seeder
 1. CategoryTableSeeder to load standard category. Run at production: php artisan db:seed --class=CategoryTableSeeder
+2. QuestionTableSeeder to load the basic questions. Run at production: php artisan db:seed --class=QuestionTableSeeder
