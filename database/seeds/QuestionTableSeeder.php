@@ -28,6 +28,6 @@ class QuestionTableSeeder extends Seeder
       $question = App\Question::create(['category_id'=>'3', 'title'=>'Were you spending time outdoor?']);
       $question = App\Question::create(['category_id'=>'5', 'title'=>'Did you meditate today?']);
       $question = App\Question::create(['category_id'=>'2', 'title'=>'Did you eat processed food today?']);
-
+      $question = App\Question::create(['category_id'=>'2', 'title'=>'What time is your last food today?']);
     }
 }
